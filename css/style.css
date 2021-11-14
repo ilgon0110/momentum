@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'Eulyoo1945-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden{
+    display: none;
+}
+#container {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+#clock{
+    position: absolute;
+    top: 20%;    
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-family: 'Eulyoo1945-SemiBold';
+    color: white;
+    font-size: 72px;
+    text-shadow: 2px 2px 2px whitesmoke;    
+}
+
+#login-form{    
+    position: absolute;
+    top: 35%;    
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;    
+}
+
+#greeting{
+    position: absolute;
+    top: 35%;    
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+}
+
+#login-form input{
+    width: 400px;
+    height: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 2px;
+    background: none;
+    font-size: 32px;    
+}
+
+#login-form input::placeholder{
+    color: white;
+    text-align: center;
+}
+
+#login-form input:focus{
+    color: white;
+    outline: none;
+    text-align: center;
+}
+#login-form input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+#login-form input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+#login-form input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+#login-form input:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+#login-form button{
+    box-sizing: border-box;
+    position: absolute;
+    background: url(baseline_login_white_24dp.png) no-repeat center;    
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+    transition:  all 0.2s;
+}
+
+#login-form button:hover{
+    transform: scale(1.03);
+    
+}
+
+#login-form button:active{
+    transform: scale(0.98);    
+}
+
+#todo-form{
+    position: absolute;
+    top: 45%;    
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;       
+}
+
+#todo-form input{
+    width: 360px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+}
+
+#todo-form input::placeholder{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#todo-form input:focus{
+    color: white;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+#todo-form input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+#todo-form input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+#todo-form input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+#todo-form input:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+#todo-block{
+    position: absolute;
+    top: 53%;    
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;      
+    width: 1200px;
+    height: 350px;
+    background: rgba(0,0,0,0.6);
+}
+
+#todo-list{
+    box-sizing: border-box;
+    position: absolute;
+    top: 10%;    
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;    
+    text-align: center; 
+    color: white;
+}
+#todo-list li{
+    margin-bottom: 16px;
+    font-family: 'Eulyoo1945-SemiBold';
+    font-size: 20px;
+}
+
+#todo-list li button{
+    border: none;
+    background: none center;
+    color: red;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+#quote{
+    position: absolute;
+    top: 95%;    
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-family: 'Eulyoo1945-SemiBold';    
+    color: white;    
+}
+
+#quote span{
+    margin-right: 10px;
+}
+
+#weather{
+    position: absolute;
+    top: 5%;    
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:5%;
+    text-align: right;
+    color: white;
+}
+
+
